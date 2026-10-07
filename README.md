@@ -57,7 +57,3 @@ pytest pre-entrega-final/test_saucedemo.py -v --html=reporte.html
 ```
 
 El reporte se genera en el archivo `reporte.html` en la raíz del proyecto.
-
-## Evidencias
-
-Ante un fallo, se guardan automáticamente una captura de pantalla y el log de ejecución en la raíz del proyecto.
