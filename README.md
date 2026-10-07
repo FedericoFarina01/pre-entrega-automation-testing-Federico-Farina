@@ -1,4 +1,4 @@
-# Pre-Entrega de Projecto: Federico Farina
+# Pre-Entrega de Proyecto: Federico Farina
 
 Automatización de flujos básicos de navegación web sobre [SauceDemo](https://www.saucedemo.com/) (Swag Labs) usando Selenium WebDriver y Pytest.
 
