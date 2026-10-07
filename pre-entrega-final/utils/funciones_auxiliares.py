@@ -26,3 +26,30 @@ def obtener_titulo(driver):
         )
     )
     return titulo.text
+
+
+def obtener_productos(driver):
+    """Lista las tarjetas de productos del inventario."""
+    WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.CLASS_NAME, "inventory_item"))
+    )
+    return driver.find_elements(By.CLASS_NAME, "inventory_item")
+
+
+def obtener_primer_producto(driver):
+    """Nombre y precio del primer producto del inventario."""
+    producto = obtener_productos(driver)[0]
+    nombre = producto.find_element(By.CLASS_NAME, "inventory_item_name").text
+    precio = producto.find_element(By.CLASS_NAME, "inventory_item_price").text
+    return nombre, precio
+
+
+def elementos_interfaz_visibles(driver):
+    """True si el menú hamburguesa y el filtro de ordenamiento están visibles."""
+    menu = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.ID, "react-burger-menu-btn"))
+    )
+    filtro = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.CLASS_NAME, "product_sort_container"))
+    )
+    return menu.is_displayed() and filtro.is_displayed()
