@@ -25,7 +25,6 @@ Aplicar los conocimientos de las clases 6 a 8 del curso de Automation Testing au
 │   ├── test_saucedemo.py              # Casos de prueba
 │   └── utils/
 │       └── funciones_auxiliares.py    # Funciones auxiliares de Selenium
-├── reports/                           # Logs y capturas de pantalla
 ├── requirements.txt
 └── README.md
 ```
@@ -69,4 +68,4 @@ El reporte se genera en el archivo `reporte.html` en la raíz del proyecto.
 
 ## Evidencias
 
-Ante un fallo, se guardan automáticamente capturas de pantalla y logs de ejecución en la carpeta `reports/`.
+Ante un fallo, se guardan automáticamente una captura de pantalla y el log de ejecución en la raíz del proyecto.
