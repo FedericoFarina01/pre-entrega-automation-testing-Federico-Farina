@@ -1,0 +1,3 @@
+2026-10-07 19:09:43,773 INFO test_01_login_exitoso: passed
+2026-10-07 19:09:46,850 INFO test_02_verificacion_catalogo: passed
+2026-10-07 19:09:48,483 INFO test_03_producto_en_carrito: passed

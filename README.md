@@ -22,9 +22,11 @@ Aplicar los conocimientos de las clases 6 a 8 del curso de Automation Testing au
 
 ```
 ├── pre-entrega-final/
+│   ├── conftest.py                    # Hook de capturas y log de ejecución
 │   ├── test_saucedemo.py              # Casos de prueba
 │   └── utils/
 │       └── funciones_auxiliares.py    # Funciones auxiliares de Selenium
+├── ejecucion.log                      # Log de la última ejecución
 ├── requirements.txt
 └── README.md
 ```
