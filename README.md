@@ -31,22 +31,14 @@ Aplicar los conocimientos de las clases 6 a 8 del curso de Automation Testing au
 
 ## Instalación
 
-1. Clonar el repositorio y entrar a la carpeta:
+Clonar el repositorio y entrar a la carpeta:
 
 ```bash
 git clone https://github.com/FedericoFarina01/pre-entrega-automation-testing-Federico-Farina.git
 cd pre-entrega-automation-testing-Federico-Farina
 ```
 
-2. Crear y activar un entorno virtual (opcional pero recomendado):
-
-```bash
-python -m venv venv
-source venv/bin/activate    # Linux/macOS
-venv\Scripts\activate       # Windows
-```
-
-3. Instalar las dependencias:
+Instalar las dependencias:
 
 ```bash
 pip install -r requirements.txt
